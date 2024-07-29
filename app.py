@@ -276,4 +276,4 @@ if st.session_state["access_pages"]:
           st.warning("Please fill out the details and transaction pages before viewing the user profile.")
       if st.button("Logout"):
           st.session_state.clear()  # Clear session state
-          st.experimental_rerun()   # Redirect to the welcome page
+          #st.experimental_rerun()   # Redirect to the welcome page
