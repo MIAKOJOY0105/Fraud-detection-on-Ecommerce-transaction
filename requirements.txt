@@ -1,0 +1,9 @@
+streamlit 
+pandas  
+numpy
+streamlit_navigation_bar
+supabase
+streamlit_supabase_auth
+scikit-learn
+streamlit_antd_components
+
