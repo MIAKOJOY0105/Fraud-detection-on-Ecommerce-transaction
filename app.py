@@ -255,7 +255,8 @@ if st.session_state["access_pages"]:
           st.write("Fraud Prediction Results:")
           st.write(predictions)
       except FileNotFoundError as e:
-          st.error(f"Error: {e}")
+        pass
+          #st.error(f"Error: {e}")
   
   elif page == "User Profile":
       st.header("User Profile")
